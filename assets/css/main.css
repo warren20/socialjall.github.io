@@ -29,13 +29,13 @@
  
 /*----- Menu Outline -----*/
 .menu-wrap {
-    width:100%;
+    width:80%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:#3e3436;
+    background:pink;
 }
  
 .menu {
-    width:1000px;
+    width:900px;
     margin:0px auto;
 }
  
@@ -46,18 +46,18 @@
 }
  
 .menu a {
-    transition:all linear 0.15s;
+    transition:all linear 0.20s;
     color:#919191;
 }
  
 .menu li:hover > a, .menu .current-item > a {
     text-decoration:none;
-    color:#be5b70;
+    color:green;
 }
  
 .menu .arrow {
-    font-size:11px;
-    line-height:0%;
+    font-size:15px;
+    line-height:15%;
 }
  
 /*----- Top Level -----*/
@@ -69,7 +69,7 @@
 }
  
 .menu > ul > li > a {
-    padding:10px 40px;
+    padding:10px 20px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
@@ -85,8 +85,8 @@
 }
  
 .sub-menu {
-    width:160%;
-    padding:5px 0px;
+    width:120%;
+    padding:5px 5px;
     position:absolute;
     top:100%;
     left:0px;
@@ -99,21 +99,36 @@
  
 .sub-menu li {
     display:block;
-    font-size:16px;
+    font-size:19px;
 }
  
 .sub-menu li a {
-    padding:10px 30px;
+    padding:0px 0px;
     display:block;
 }
  
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
+    color:red;
 }
 
 /*Menu ends*/
 
 
+.image{
+	margin-bottom:130%;
+}
+
+.inner {
+	margin-bottom: 50%;
+	}
+
+	.footer {
+		width=100%;
+		background-color:black;
+	}
+
+/*end of first page*/
 	body {
 		line-height: 1;
 	}
