@@ -78,7 +78,7 @@
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
  
-.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+.menu > ul > li:hover > a {
     background:#2e2728;
 }
  
@@ -111,7 +111,7 @@
     display:block;
 }
  
-.sub-menu li a:hover, .sub-menu .current-item a {
+.sub-menu li a:hover {
     background:#3e3436;
     color:red;
 }
