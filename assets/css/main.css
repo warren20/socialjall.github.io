@@ -119,13 +119,12 @@
 /*Menu ends*/
 
 
-.image{
-	margin-bottom:130%;
+.top{
+	width= 500px;
+	height=400px;
+	
 }
 
-.inner {
-	margin-bottom: 50%;
-	}
 
 	.footer {
 		width=100%;
