@@ -54,7 +54,7 @@
     color:#919191;
 }
  
-.menu li:hover > a, .menu .current-item > a {
+.menu li:hover > a{
     text-decoration:none;
     color:green;
 }
