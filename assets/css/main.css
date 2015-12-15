@@ -120,9 +120,17 @@
 
 
 .top{
-	width= 500px;
-	height=150px;
+	display: block;
+	 width:100%;
+    background:black;
+    margin-top:50px
+    margin-left:50px;
+    
+   
 	
+}
+#owner{
+
 }
 
 
