@@ -14,7 +14,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: text-top;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -119,21 +119,35 @@
 
 
 .top{
-	display: block;
-	 width:100%;
-    background:black;
-    margin-top:50px
-    margin-left:50px;
-    
+	position: inline-block;
+	 width:120%;
+	 height:100%;
+    background:purple;
    
+    margin-left:30px;
+    
+}
+#intro {
+	position: relative;
+	float: right;
+	margin-top:-300px;
+	margin-left: 200;
+	background-color: green;
+	opacity:1;
+	border-radius: 10px;
+
+}
+#intro p a:hover{
+	color:red;
 	
 }
+
+
 #owner{
-	margin-top: 70px;
-
-
+	vertical-align: text-top;
+	width:300px;
+	height:250px;
 }
-
 
 	.footer {
 		width=100%;
