@@ -122,7 +122,7 @@
 	position: inline-block;
 	 width:120%;
 	 height:100%;
-    background:purple;
+    background:	 #990073;
    
     margin-left:30px;
     
@@ -132,9 +132,10 @@
 	float: right;
 	margin-top:-300px;
 	margin-left: 200;
-	background-color: green;
+	background-color:  #006622;
 	opacity:1;
-	border-radius: 10px;
+	border-radius: 30px;
+	padding-left: 10px;	
 
 }
 #intro p a:hover{
