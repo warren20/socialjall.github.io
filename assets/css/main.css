@@ -75,6 +75,7 @@
     padding:10px 20px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+    transition:all linear 0.20s;
 }
  
 .menu > ul > li:hover > a {
