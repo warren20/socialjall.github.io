@@ -13,8 +13,32 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+<style>
+ .first{
+       width:40px;
+       height:50px;
+       background-color:blue;
+       position:relative;
+       -webkit-animation-name:example;/* Chrome, Safari, Opera */
+       -webkit-animation-duration:12s;/* Chrome, Safari, Opera */
+       -webkit-animation-iteration-count:infinite;/* Chrome, Safari, Opera */
 
-
+       animation-name:example;
+       animation-duration:12s;
+       animation-iteration-count:infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example{
+        0% {background-color:blue; left:-420px; top:0px;}
+     100%  {background-color:yellow; left:1050px;top:0px}
+     
+/* Standard syntax */
+@keyframes example{
+      0% {background-color:blue; left:-420px; top:0px;}
+     100%  {background-color:yellow; left:1050px;top:0px}
+     
+  }
+  </style>
 	</head>
 	<body id="top">
 
@@ -49,15 +73,7 @@
     </nav>
 </div>
 <br>
-<p class="first"> To day is:<span id="demo"></span></p>
-			<header id="header">
-				<script>
-				confirm("This site is still under construction, Click OK to continue")
-				</script>
-				<script>
-              document.getElementById("demo").innerHTML = Date();
-              </script>
-
+<div class="first"><img src="../warren20.github.io/images/hkpicweb.GIF" width="420" height="50" Alt="Image not displayed"/></div>
 
 				<div class="top">  
 					
@@ -72,7 +88,7 @@
                          <span style="color:red"><em>― Carlos Fuentes</em></span></p>
 			
 				    </div>
-				    <iframe width="560" height="315" src="https://www.youtube.com/embed/9PaIFUL2RS0" frameborder="0" allowfullscreen></iframe>
+				    <iframe width="400" height="315" src="https://www.youtube.com/embed/9PaIFUL2RS0" frameborder="0" allowfullscreen></iframe>
 				
 			</header>
 			<div class="footer">
