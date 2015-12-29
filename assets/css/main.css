@@ -29,7 +29,7 @@
  
 /*----- Menu Outline -----*/
 .menu-wrap {
-    max-width:100%;
+    max-width:110%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
     background:pink;
     margin:auto;
