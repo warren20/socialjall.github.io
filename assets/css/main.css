@@ -128,7 +128,7 @@
 .top{
 	position: absolute;
 	 width:98%;
-	 height:50%;
+	 height:80%;
     background:	 black;
    
     margin-left:30px;
@@ -159,7 +159,7 @@
 }
 iframe{
 	position:absolute;
-	margin-left:140px;
+	margin-left:420px;
 	margin-top:255px;
 	margin-bottom:10px;
 }
@@ -175,7 +175,7 @@ iframe{
 	.footer {
 		position:relative;
 		margin-top:50%;
-		width=100%;
+		margin-left: 30px;
 		background-color:brown;
 	}
 
