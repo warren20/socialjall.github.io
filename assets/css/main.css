@@ -126,23 +126,31 @@
 	
 }
 .top{
-	position: inline-block;
-	 width:120%;
-	 height:100%;
-    background:	 #990073;
+	position: absolute;
+	 width:98%;
+	 height:50%;
+    background:	 black;
    
     margin-left:30px;
     
 }
+#objective{
+	background-color:purple;
+	position:absolute;
+	margin-top:-180px;
+	margin-left:400px;
+	marigin-right:5px;
+	width:80;
+	height:50;
+}
 #intro {
-	position: relative;
-	float: right;
-	margin-top:-300px;
-	margin-left: 200;
+	position: absolute;
 	background-color:  #006622;
 	opacity:1;
 	border-radius: 30px;
 	padding-left: 10px;	
+	margin-left:400px;
+	margin-top:-120px;
 
 }
 #intro p hover{
@@ -150,19 +158,25 @@
 	
 }
 iframe{
-	margin-left: 35px;
+	position:absolute;
+	margin-left:140px;
+	margin-top:255px;
+	margin-bottom:10px;
 }
 
 
 #owner{
+
 	vertical-align: text-top;
 	width:300px;
 	height:250px;
 }
 
 	.footer {
+		position:relative;
+		margin-top:50%;
 		width=100%;
-		background-color:black;
+		background-color:brown;
 	}
 
 /*end of first page*/
