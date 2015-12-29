@@ -158,7 +158,7 @@
 	
 }
 iframe{
-	position:absolute;
+	position:relative;
 	margin-left:420px;
 	margin-top:255px;
 	margin-bottom:10px;
