@@ -26,6 +26,7 @@
     display:block;
     clear:both;
 }
+#top { background-color:#9A914B;}
  
 /*----- Menu Outline -----*/
 .menu-wrap {
@@ -129,7 +130,7 @@
 	position: absolute;
 	 width:98%;
 	 height:80%;
-    background:	 #9A914B;
+    background:	 black;
    
     margin-left:30px;
     
