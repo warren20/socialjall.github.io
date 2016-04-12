@@ -59,7 +59,7 @@ ol,ul, {list-style: none; }
     background-color:red;
     margin:auto;
     border-radius:5px;
-    height:15px;
+    height:40px;
 }
  /* maximum width was taken to be 900px, and we express other things in terms of percentage*/
 .menu {
