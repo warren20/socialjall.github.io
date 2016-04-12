@@ -66,6 +66,7 @@ ol,ul, {list-style: none; }
 	display:inline;
     max-width:650px;
     margin:0px auto;
+    background-color: green;
 }
  
 .menu li {
