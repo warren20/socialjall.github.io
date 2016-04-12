@@ -56,7 +56,7 @@ ol,ul, {list-style: none; }
 .menu-wrap {
     max-width:100%;
     box-shadow:0px 1px 3px rgba(0,0,0,0.2);
-    background:purple;
+    background-color:purple;
     margin:auto;
     border-radius:1.11%;
     height:5.55%;
