@@ -64,7 +64,7 @@ ol,ul, {list-style: none; }
  /* maximum width was taken to be 900px, and we express other things in terms of percentage*/
 .menu {
 	display:inline;
-    max-width:650px;
+    max-width:500px;
     margin:0px auto;
     background-color: green;
 }
