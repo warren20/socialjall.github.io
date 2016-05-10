@@ -24,25 +24,25 @@
 	/*my Reset */
 
 
-/* Reset 
+ Reset 
 html, body, article, aside, footer, header, hgroup, nav, section, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, table, tr, th, td, tbody, tfoot, thead {
 margin: 0;
 padding: 0;
-boder: 0;
+border: 0;
 vertical-align: baseline;
 background: transparent;
 }
 img {margin:0; padding:0; border:0; }
 table, tr, th, td, tbody, tfoot, thead {margin:0; padding:0; border:0; vertical-align:baseline; background:transparent; }
 table {border-collapse:collapse; border-spacing:0; }
-input, select, textarea, form, fieldset {margin:0 padding:0; border:0; }
+input, select, textarea, form, fieldset {margin:0 ;padding:0; border:0; }
 article, aside, dialog, figure, footer, header, hgroup, nav, section{display:block;}
 h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em,strong,strike{
 font-family:Arial, Helvetica, sans-serif;
 font-size:100%; font-weight:normal; font-style:normal; line-height:100%; text-indent: 0; text-decoration: none; text-align:left; color:#000; }
 ol,ul, {list-style: none; }
 
-*/
+
 
 /* Only for Menu  */
 
@@ -156,37 +156,38 @@ ol,ul, {list-style: none; }
 }
 .top{
 	position: absolute;
-	 width:98%;
+	 width:95%;
 	 height:80%;
-    background:	 black;
-   
+    background:#ccc;
     margin-left:30px;
     margin-right:30px;
     
 }
+.top ul{position:absolute;top:50px;left:40px;}
+.top ul li{list-style-type:none;border:1px solid orange;display:block;background-color:#9ca;width:180px;
+padding:15px;border-radius: 5px;}
+.top ul li a:link{color:blue;}
+.top ul li a:hover{background-color:orange;}
+.top ul li a:visited{color:blue;}
+.top h4{position:absolute;top:12px;left:50px;}
+#intro{
+	position:relative; top:40px;float:right;border:3px dotted green;margin-right:50px;border-radius:5px;padding:10px;
+}
+#intro h4{color:green;}
+#intro a:link{color:green;}
+#intro a:hover{color:orange;}
 #objective{
 	background-color:purple;
 	position:absolute;
 	margin-top:-240px;
 	margin-left:320px;
-	marigin-right:5px;
+	margin-right:5px;
 	width:80;
 	height:50;
 }
-#intro {
-	position: absolute;
-	background-color:  #006622;
-	opacity:1;
-	border-radius: 30px;
-	padding-left: 10px;	
-	margin-left:400px;
-	margin-top:-120px;
 
-}
-#intro p hover{
-	color:red;
-	
-}
+
+
 iframe{
 	position:relative;
 	margin-left:30px;
@@ -202,15 +203,16 @@ iframe{
 	height:250px;
 }
 
-	.footer {
+	#footer {
 		position:absolute;
-		margin-top:10px;
-		margin-left: 30px;
-		width:98%;
+		top:630px;
+		margin-left:30px;
+		width:95%;
+		height:0%;
 		border-radius:10px;
 		background-color:brown;
 	}
-
+#footer .copyright{text-align:center;}
 /*end of first page*/
 .usm{
 
@@ -4281,13 +4283,15 @@ iframe{
 /* Footer */
 
 	#footer {
-		background-color: #f7f7f7;
-		color: #999999;
-		padding: 4.5em 0 2.5em 0 ;
+		background-color: orange;
+		color:#999999;
+		padding: 2.5em 0 2.5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
+		
 	}
-
+	#footer ul{position:relative; display:block; margin-bottom:0px;height:40px;}
+.copyright{text-align:center;}
 		#footer input, #footer select, #footer textarea {
 			color: #999999;
 		}
