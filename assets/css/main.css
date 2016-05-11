@@ -213,7 +213,34 @@ iframe{
 		background-color:brown;
 	}
 #footer .copyright{text-align:center;}
+
+@media screen and (max-width: 480px) {
+
+	.first{max-width:100%;}
+		}
+
+
+
 /*end of first page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .usm{
 
 	background-color:yellow;
